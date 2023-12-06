@@ -11,12 +11,29 @@ main {
 
 .grid1_forside {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
     padding: 2rem;
     gap: 10px;
+    margin-top: 10rem;
 }
 
 .grid2_forside {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 2rem;
+    gap: 10px;
+    margin-top: 10rem;
+}
+
+.grid3_forside {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 2rem;
+    gap: 10px;
+    margin-top: 10rem;
+}
+
+.grid4_forside {
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding: 2rem;
