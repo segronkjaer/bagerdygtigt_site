@@ -21,6 +21,7 @@ main {
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding: 2rem;
+    padding-left: 40rem;
     gap: 10px;
 }
 
@@ -29,7 +30,7 @@ main {
     grid-template-columns: 1fr 1fr;
     padding: 2rem;
     gap: 10px;
-    margin-top: 2rem;
+    margin-bottom: 3rem;
 }
 
 .grid4_forside {
@@ -52,4 +53,18 @@ video {
     height: 100%;
     display: block; 
     object-fit: cover;
+}
+
+.knap1 a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    background-color: #6f6964;
+    padding: 10px;
+    border-radius: 10px;
+    font-family: "brandon-grotesque", sans-serif;
+    font-size: 0.8rem;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 0.5rem;
 }
