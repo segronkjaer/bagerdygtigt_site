@@ -1,11 +1,26 @@
 /****** FORSIDE ******/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    margin: 5rem;
+}
 
 .grid1_forside {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 2rem;
+    gap: 10px;
+}
+
+.grid2_forside {
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding: 2rem;
     gap: 10px;
-
 }
 
 img {
