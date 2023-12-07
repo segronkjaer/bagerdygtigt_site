@@ -30,3 +30,61 @@ h1 {
 html {
   scroll-behavior: smooth;
 }
+
+/*Menu css*/
+@media (min-width: 800px) {
+  .om_grid {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+  }
+
+  #bagerdygtigtheader {
+    font-size: 3rem;
+    font-weight: bold;
+  }
+
+  .menu {
+    list-style: none;
+    display: flex;
+    font-size: 30px;
+  }
+
+  .menu li {
+    margin-right: 20px;
+  }
+
+  a {
+    text-decoration: none;
+    font-weight: 700;
+    color: black;
+    font-weight: 1;
+  }
+
+  a:hover {
+    color: white;
+  }
+  .separator {
+    height: 2px;
+    background-color: #000;
+    margin: 10px 50px;
+  }
+}
+/*menu html*/
+<header>
+        <div class="om_grid">
+            <div>
+                <a id="bagerdygtigtheader" href="#">BAGERDYGTIGT</a>
+            </div>
+            <nav>
+                <ul class="menu">
+                    <li><a href="#">Menu</a></li>
+                    <li><a href="#">Lokationer</a></li>
+                    <li><a href="#">Om</a></li>
+                    <li> <a href="#">Bestilling</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="separator"></div>
