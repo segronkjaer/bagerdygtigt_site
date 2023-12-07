@@ -9,40 +9,54 @@ main {
     margin: 10rem;
 }
 
+p {
+    font-family: "brandon-grotesque", sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+    font-style: normal;
+    margin-right: 170px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+  }
+
 .grid1_forside {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    padding: 2rem;
+    padding-left: 10rem;
     gap: 10px;
     margin-top: 8rem;
+    width: 80%;
 }
 
 .grid2_forside {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 2rem;
+    grid-template-columns: 1fr;
+    padding-left: 40rem;
     gap: 10px;
+    width: 75%;
 }
 
 .grid3_forside {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    padding: 2rem;
+    padding-left: 10rem;
     gap: 10px;
-    margin-top: 2rem;
+    margin-bottom: 3rem;
+    width: 75%;
 }
 
 .grid4_forside {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    padding: 2rem;
+    padding-left: 10rem;
     gap: 10px;
     margin-bottom: 10rem;
+    margin-top: 5rem;
 }
 
 img {
-    width: 100%;
-    height: 100%;
+    width: 75%;
+    height: 75%;
     display: block; 
     object-fit: cover;
 }
@@ -52,4 +66,18 @@ video {
     height: 100%;
     display: block; 
     object-fit: cover;
+}
+
+.knap1 a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    background-color: #6f6964;
+    padding: 10px;
+    border-radius: 10px;
+    font-family: "brandon-grotesque", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 0.5rem;
 }

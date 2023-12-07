@@ -1,0 +1,68 @@
+/* skift style */
+
+h2 {
+  font-family: "brandon-grotesque", sans-serif;
+  font-size: 2rem;
+  font-weight: 400;
+  font-style: normal;
+  margin-top: 20px;
+}
+
+h3 {
+  font-family: "brandon-grotesque", sans-serif;
+  font-size: 1.4rem;
+  font-weight: 400;
+  font-style: normal;
+  margin-top: 27px;
+}
+
+p {
+  font-family: "brandon-grotesque", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 300;
+  font-style: normal;
+  margin-right: 170px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.morgenmad {
+  margin-top: 124px;
+  margin-left: 27px;
+}
+
+.punktform {
+  list-style-type: none; /* Fjerner standardpunktet */
+  padding: 0; /* Fjerner indrykning for ul-elementet */
+  display: inline-block;
+  font-family: "brandon-grotesque", sans-serif;
+  font-size: 1rem;
+  font-weight: 300;
+  font-style: normal;
+  margin-right: 170px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 15px;
+}
+
+/* style */
+img {
+  width: 77%;
+  height: 75%;
+  margin-left: 126px;
+}
+
+.punktform li::before {
+  content: "\2022"; /* Bruger unicode-tegnet for en prik • */
+  color: black; /* Farve på prikken */
+  display: inline-block;
+  width: 1em; /* Bredden af prikken */
+  margin-left: -1em; /* Negativ margin for at centrere prikken */
+}
+
+/* layout */
+
+.grid_1-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
