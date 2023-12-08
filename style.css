@@ -31,6 +31,64 @@ html {
   scroll-behavior: smooth;
 }
 
+/* mobil site (menu */
+@media (max-width: 800px) {
+
+    .om_grid {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+  }
+
+  #bagerdygtigtheader {
+    font-size: 2rem;
+   font-weight: 400;
+    font-family: "brandon-grotesque", sans-serif;
+    margin-left: 21%;
+    color: #000;
+  }
+  .burger {
+    display: none;
+  }
+
+    .menu {
+    list-style: none;
+    display: flex;
+    font-size: 30px;
+    margin-top: 2%;
+  }
+
+    .menu {
+    list-style: none;
+    display: flex;
+    font-size: 30px;
+    margin-top: 2%;
+  }
+
+  .menu li {
+    margin-right: 35px;
+  }
+
+  a {
+    text-decoration: none;
+    font-weight: lighter;
+    color: black;
+font-size: 1.4rem;
+    font-family: "brandon-grotesque", sans-serif;
+  }
+
+ 
+  .separator {
+    height: 2px;
+    background-color: #000;
+    margin: 10px 50px;
+    margin-top: -2%;
+    margin-right: 4%;
+    margin-left: 7%;
+  }
+}
+
 /*Menu css*/
 @media (min-width: 800px) {
   .om_grid {

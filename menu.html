@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="da">
 
 <head>
     <meta charset="UTF-8">
@@ -9,12 +9,14 @@
     <link rel="stylesheet" href="layout.css">
     <link rel="stylesheet" href="menu.css">
     <link rel="stylesheet" href="layout.css">
+    <link rel="stylesheet" href="burger.css">
 </head>
 
 <header>
+
     <div class="om_grid">
         <div>
-            <a id="bagerdygtigtheader" href="#">BAGERDYGTIGT</a>
+            <a id="bagerdygtigtheader" href="index.html">BAGERDYGTIGT</a>
         </div>
         <nav>
             <ul class="menu">
@@ -23,8 +25,20 @@
                 <li><a href="om.html">Om</a></li>
                 <li> <a href="bestilling.html">Bestilling</a></li>
             </ul>
+
+            <div class="burger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
         </nav>
+
+
+
+
+
     </div>
+
 </header>
 <div class="separator"></div>
 
@@ -33,12 +47,16 @@
 <body>
     <main>
         <div class="grid_1-1">
-            <div class="grid_1">
-                <div class="menu_1">
-                    <h1> Menu </h1>
-                </div>
+
+            <div class="menu_1">
+                <h1> Menu </h1>
+            </div>
+
+            <div>
                 <img src="imgs/menu.webp" alt="billede_menu" class="billede_menu">
             </div>
+
+
             <div class="morgenmad">
                 <h2>Morgenmad</h2>
                 <h3>Økologisk Microbrunch - 115kr.</h3>
@@ -76,6 +94,8 @@
 
 
     </main>
+
+    <script src="burger.js"></script>
 </body>
 
 </html>
