@@ -19,8 +19,8 @@ body {
 /* H1 overskrift for alle sider */
 h1 {
   font-family: "brandon-grotesque", sans-serif;
-  font-size: 4rem;
-  font-weight: 400;
+  font-size: 3.4rem;
+  font-weight: 300;
   font-style: normal;
   margin-top: 60px;
   margin-left: 126px;
@@ -42,33 +42,39 @@ html {
 
   #bagerdygtigtheader {
     font-size: 3rem;
-    font-weight: bold;
+   font-weight: 400;
+    font-family: "brandon-grotesque", sans-serif;
+    margin-left: 21%;
   }
 
   .menu {
     list-style: none;
     display: flex;
     font-size: 30px;
+    margin-top: 2%;
   }
 
   .menu li {
-    margin-right: 20px;
+    margin-right: 35px;
   }
 
   a {
     text-decoration: none;
-    font-weight: 700;
+    font-weight: lighter;
     color: black;
-    font-weight: 1;
+font-size: 1.4rem;
+    font-family: "brandon-grotesque", sans-serif;
   }
 
-  a:hover {
-    color: white;
-  }
+ 
   .separator {
     height: 2px;
     background-color: #000;
     margin: 10px 50px;
+    margin-top: -2%;
+    margin-right: 4%;
+    margin-left: 7%;
+  }
   }
 }
 /*menu html*/

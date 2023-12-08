@@ -12,9 +12,14 @@
   }
 
   .billede_menu {
-    margin-left: 50px;
+    margin-left: 60px;
   }
 
+  .grid_1 {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
   .menu_1 {
     grid-column: 1 / span 1;
     grid-row: 1 / span 1;
