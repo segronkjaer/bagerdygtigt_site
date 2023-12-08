@@ -1,0 +1,99 @@
+main {
+  margin: auto;
+}
+@media (min-width: 800px) {
+  .om_grid {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+  }
+
+  #bagerdygtigtheader {
+    font-size: 3rem;
+    font-weight: bold;
+  }
+
+  .menu {
+    list-style: none;
+    display: flex;
+    font-size: 30px;
+  }
+
+  .menu li {
+    margin-right: 20px;
+  }
+
+  a {
+    text-decoration: none;
+    font-weight: 700;
+    color: black;
+    font-weight: 1;
+  }
+
+  a:hover {
+    color: white;
+  }
+  .separator {
+    height: 2px;
+    background-color: #000;
+    margin: 10px 50px;
+  }
+  .om_grid2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 1400px;
+    margin: auto;
+    gap: 1rem;
+  }
+
+  #om_img1 {
+    width: 80%;
+    height: auto;
+    margin-inline: auto;
+  }
+  .img {
+    align-self: end;
+  }
+
+  #om_img2 {
+    width: 100%;
+    width: 100%;
+  }
+  #om_txt {
+    /* width: 60%; */
+    height: auto;
+    padding: 1.5rem;
+    font-size: large;
+  }
+  .om_grid3 {
+    display: flex;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-between;
+  }
+  .footer1 {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    margin-top: 2rem;
+  }
+  .footer2 {
+    list-style: none;
+    margin-bottom: 1rem;
+  }
+  .footer3 {
+    margin-top: 1rem;
+  }
+}
+
+/* Generel styling */
+header,
+main,
+footer,
+body {
+  font-family: "brandon-grotesque", sans-serif;
+  /* background-color: antiquewhite;*/
+}
+
+@media (max-width: 800px) {
+}

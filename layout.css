@@ -1,0 +1,23 @@
+/* * * Mobil site * * */
+@media (max-width: 800px) {
+  .grid_1-1 {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+
+  .menu_1 {
+    grid-column: 1 / span 1;
+    grid-row: 1 / span 1;
+    margin-right: 1rem;
+  }
+
+  .morgenmad {
+    grid-column: 1 / span 1;
+    grid-row: 1 / span 1;
+  }
+
+  .billede_menu {
+    margin-left: 60px;
+  }
+}

@@ -1,55 +1,80 @@
 /****** FORSIDE ******/
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-main {
-    margin: 10rem;
+p {
+  font-family: "brandon-grotesque", sans-serif;
+  font-size: 1rem;
+  font-weight: 300;
+  font-style: normal;
+  margin-right: 170px;
+  margin-top: 15px;
+  margin-bottom: 10px;
 }
 
 .grid1_forside {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 2rem;
-    gap: 10px;
-    margin-top: 8rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-left: 15rem;
+  gap: 10px;
+  margin-top: 7rem;
+  width: 80%;
 }
 
 .grid2_forside {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 2rem;
-    gap: 10px;
+  display: grid;
+  grid-template-columns: 1fr;
+  padding-left: 40rem;
+  gap: 10px;
+  width: 75%;
 }
 
 .grid3_forside {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 2rem;
-    gap: 10px;
-    margin-top: 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-left: 15rem;
+  gap: 10px;
+  margin-bottom: 3rem;
+  margin-top: 1rem;
+  width: 75%;
 }
 
 .grid4_forside {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 2rem;
-    gap: 10px;
-    margin-bottom: 10rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-left: 15rem;
+  gap: 10px;
+  margin-bottom: 10rem;
+  margin-top: 5rem;
 }
 
 img {
-    width: 100%;
-    height: 100%;
-    display: block; 
-    object-fit: cover;
+  width: 75%;
+  height: 75%;
+  display: block;
+  object-fit: cover;
 }
-  
+
 video {
-    width: 100%;
-    height: 100%;
-    display: block; 
-    object-fit: cover;
+  width: 100%;
+  display: block;
+  object-fit: cover;
+  margin-top: 2rem;
+}
+
+.knap1 a {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  background-color: #6f6964;
+  padding: 10px;
+  border-radius: 10px;
+  font-family: "brandon-grotesque", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  font-style: normal;
+  margin-top: 0.5rem;
 }
