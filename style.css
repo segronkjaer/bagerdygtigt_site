@@ -19,8 +19,8 @@ body {
 /* H1 overskrift for alle sider */
 h1 {
   font-family: "brandon-grotesque", sans-serif;
-  font-size: 4rem;
-  font-weight: 400;
+  font-size: 3.4rem;
+  font-weight: 300;
   font-style: normal;
   margin-top: 60px;
   margin-left: 126px;
@@ -51,11 +51,11 @@ html {
     list-style: none;
     display: flex;
     font-size: 30px;
-    margin-top: 8%;
+    margin-top: 2%;
   }
 
   .menu li {
-    margin-right: 20px;
+    margin-right: 35px;
   }
 
   a {
@@ -71,6 +71,10 @@ font-size: 1.4rem;
     height: 2px;
     background-color: #000;
     margin: 10px 50px;
+    margin-top: -2%;
+    margin-right: 4%;
+    margin-left: 7%;
+  }
   }
 }
 /*menu html*/
