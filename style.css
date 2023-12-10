@@ -156,7 +156,6 @@ ul {
     transition: 0.2s linear;
   }
 
-<<<<<<< HEAD
   .separator {
     height: 2px;
     background-color: #000;
@@ -164,7 +163,8 @@ ul {
     margin-top: -2%;
     margin-right: 4%;
     margin-left: 7%;
-=======
+  }
+
   nav.active .menu {
     display: block;
     background-color: #f4f9ff;
@@ -174,7 +174,6 @@ ul {
     width: 100%;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     z-index: 1;
->>>>>>> a9b6443681bb39eee8156b986f49303a6b3da2d0
   }
 
   nav.active .menu li {
