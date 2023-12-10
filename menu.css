@@ -48,8 +48,9 @@ p {
 /* style */
 img {
   width: 77%;
-  height: 75%;
+  height: 82%;
   margin-left: 126px;
+  margin-top: 2%;
 }
 
 .punktform li::before {
@@ -65,4 +66,9 @@ img {
 .grid_1-1 {
   display: grid;
   grid-template-columns: 1fr 1fr;
+}
+
+.morgenmad {
+  grid-column: 2 / span 1;
+  grid-row: 1 / span 2;
 }
