@@ -78,3 +78,25 @@ video {
     font-style: normal;
     margin-top: 0.5rem;
 }
+
+/***** FOOTER *****/
+@media (min-width: 800px) {
+.om_grid3 {
+    display: flex;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-between;
+  }
+  .footer1 {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    margin-top: 2rem;
+  }
+  .footer2 {
+    list-style: none;
+    margin-bottom: 1rem;
+  }
+  .footer3 {
+    margin-top: 1rem;
+  }
+}
