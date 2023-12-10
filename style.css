@@ -66,10 +66,6 @@ a {
   font-family: "brandon-grotesque", sans-serif;
 }
 
-a:hover {
-  color: rgb(185, 173, 173);
-}
-
 /* .separator {
   height: 2px;
   background-color: #000;
