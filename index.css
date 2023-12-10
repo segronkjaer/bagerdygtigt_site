@@ -195,16 +195,16 @@ video {
   }
 
 .footer1 {
-    display: flex;
     list-style: none;
     gap: 10px;
-    margin-top: 2rem;
+    margin-bottom: 1rem;
     margin-right: 1rem;
 }
 
 .footer2 {
     list-style: none;
-    margin-bottom: 1rem;
+    margin-bottom: 5rem;
+    margin-left: 6rem;
 }
 
 .footer3 {
