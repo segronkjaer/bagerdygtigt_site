@@ -16,14 +16,21 @@ body {
   background-color: #eeece3;
 }
 
-/* H1 overskrift for alle sider */
+/* Tekster for alle sider */
 h1 {
   font-family: "brandon-grotesque", sans-serif;
   font-size: 3.4rem;
   font-weight: 400;
   font-style: normal;
-  margin-top: 20px;
+  margin-top: 40px;
   margin-bottom: 20px;
+}
+
+p {
+  font-family: "brandon-grotesque", sans-serif;
+  font-size: 1rem;
+  font-weight: 300;
+  font-style: normal;
 }
 
 html {
@@ -67,15 +74,6 @@ a {
   font-size: 1.2rem;
   font-family: "brandon-grotesque", sans-serif;
 }
-
-/* .separator {
-  height: 2px;
-  background-color: #000;
-  margin: 10px 50px;
-  margin-top: -2%;
-  margin-right: 4%;
-  margin-left: 7%;
-} */
 
 /* Burgermenu */
 .menu {
@@ -159,15 +157,6 @@ ul {
     border-bottom: 0.5px solid black;
   }
 
-  /* .separator {
-    height: 2px;
-    background-color: #000;
-    margin: 10px 50px;
-    margin-top: -2%;
-    margin-right: 4%;
-    margin-left: 7%;
-  } */
-
   nav.active .menu {
     display: block;
     background-color: #eeece3;
@@ -193,7 +182,7 @@ ul {
     display: flex;
     grid-template-columns: 1fr 1fr 1fr;
     justify-content: space-between;
-    margin-top: 4rem;
+    margin-top: 1.8rem;
   }
   .footer1 {
     display: flex;
