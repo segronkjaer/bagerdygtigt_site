@@ -6,41 +6,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://use.typekit.net/xnr4lup.css">
     <link rel="stylesheet" href="om.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="layout.css">
     <title>Om</title>
 </head>
 
 <body>
     <header>
         <div class="om_grid">
-            <nav class="nav-menu">
-                <ul class="burger_menu">
-                    <li><a href="#">Menu</a></li>
-                    <li><a href="#">Lokationer</a></li>
-                    <li><a href="#">Om</a></li>
-                    <li><a href="#">Bestilling</a></li>
-                </ul>
-                <div class="burger-menu">
-                    <div class="bar"></div>
-                    <div class="bar"></div>
-                    <div class="bar"></div>
-                </div>
-                <a id="bagerdygtigtheader" href="#">BAGERDYGTIGT</a>
+            <div>
+                <a id="bagerdygtigtheader" href="index.html">BAGERDYGTIGT</a>
+            </div>
+            <nav>
                 <ul class="menu">
-                    <li><a href="#">Menu</a></li>
-                    <li><a href="#">Lokationer</a></li>
-                    <li><a href="#">Om</a></li>
-                    <li><a href="#">Bestilling</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="lokationer.html">Lokationer</a></li>
+                    <li><a href="om.html">Om</a></li>
+                    <li> <a href="bestilling.html">Bestilling</a></li>
                 </ul>
+                <div class="burger">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </div>
             </nav>
         </div>
     </header>
     <div class="separator"></div>
     <main>
+        <h1 class="om_h1">
+            Om
+        </h1>
         <div class="om_grid2">
+
             <div id="om_txt">
-                <h1>
-                    Om
-                </h1>
+
                 <p>
                     Siden vi begyndte på Vesterbro i 2012, har Bagerdygtigt altid brændt for økologisk bagning og ægte
                     håndværk. Vi er siden
@@ -78,20 +78,21 @@
 
             </div>
             <div class="footer2">
-                <img src="SVG/logo.svg" alt="logo">
-                <li><a href="#">Bagerdygtigt</a></li>
+                <img src="imgs/bagerdygtig_logo.png" alt="logo">
+                <li id="logo_txt"><a href="#">Bagerdygtigt</a></li>
 
             </div>
             <div class="footer1">
-                <li><a href="#">Om os</a></li>
-                <li><a href="#">Kontakt</a></li>
-                <li><a href="#">Lokationer</a></li>
+                <li class="footer_txt"><a href="#">Om os</a></li>
+                <li class="footer_txt"><a href="#">Kontakt</a></li>
+                <li class="footer_txt"><a href="#">Lokationer</a></li>
             </div>
 
         </div>
 
     </footer>
     <script src="script.js"></script>
+    <script src="burger.js"></script>
 </body>
 
 </html>

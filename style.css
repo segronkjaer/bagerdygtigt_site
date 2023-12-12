@@ -19,7 +19,7 @@ body {
 /* H1 overskrift for alle sider */
 h1 {
   font-family: "brandon-grotesque", sans-serif;
-  font-size: 4rem;
+  font-size: 3.4rem;
   font-weight: 400;
   font-style: normal;
   margin-top: 60px;
@@ -31,60 +31,152 @@ html {
   scroll-behavior: smooth;
 }
 
-/*Menu css*/
-@media (min-width: 800px) {
-  .om_grid {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 40px;
-  }
+/* Menu */
+header {
+  border-bottom: 0.5px solid black;
+}
 
-  #bagerdygtigtheader {
-    font-size: 3rem;
-    font-weight: bold;
-  }
+.om_grid {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px;
+}
 
+#bagerdygtigtheader {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  font-size: 30px;
+}
+
+.menu li {
+  margin-right: 20px;
+}
+
+a {
+  text-decoration: none;
+  font-weight: lighter;
+  color: black;
+  font-size: 1.4rem;
+  font-family: "brandon-grotesque", sans-serif;
+}
+
+/* .separator {
+  height: 2px;
+  background-color: #000;
+  margin: 10px 50px;
+  margin-top: -2%;
+  margin-right: 4%;
+  margin-left: 7%;
+} */
+
+/* Burgermenu */
+.menu {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+
+.menu li {
+  margin-right: 20px;
+  display: list-item;
+  text-align: -webkit-match-parent;
+}
+
+.menu li:last-child {
+  margin-right: 0;
+}
+
+.menu a {
+  display: block;
+  padding: 10px;
+  color: black;
+  text-decoration: none;
+  transition: color 0.3s;
+  text-align: end;
+}
+
+.burger {
+  width: 30px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.burger .line {
+  width: 100%;
+  height: 2px;
+  background-color: black;
+  margin-bottom: 5px;
+  transition: 0.2s linear;
+}
+
+.burger {
+  display: none;
+}
+
+@media screen and (max-width: 800px) {
   .menu {
-    list-style: none;
-    display: flex;
-    font-size: 30px;
+    display: none;
   }
 
-  .menu li {
-    margin-right: 20px;
+  .burger {
+    display: block;
   }
 
-  a {
-    text-decoration: none;
-    font-weight: 700;
-    color: black;
-    font-weight: 1;
+  .burger.active .line:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 5px);
+    transition: 0.2s linear;
   }
 
-  a:hover {
-    color: white;
+  .burger.active .line:nth-child(2) {
+    opacity: 0;
+    transition: 0.15s linear;
   }
+
+  .burger.active .line:nth-child(3) {
+    transform: rotate(-45deg) translate(5px, -5px);
+    transition: 0.2s linear;
+  }
+
   .separator {
     height: 2px;
     background-color: #000;
     margin: 10px 50px;
+    margin-top: -2%;
+    margin-right: 4%;
+    margin-left: 7%;
+  }
+
+  nav.active .menu {
+    display: block;
+    background-color: #f4f9ff;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+  }
+
+  nav.active .menu li {
+    margin: 10px 20px;
+  }
+
+  nav.active .menu a {
+    font-size: 24px;
   }
 }
-/*menu html*/
-<header>
-        <div class="om_grid">
-            <div>
-                <a id="bagerdygtigtheader" href="#">BAGERDYGTIGT</a>
-            </div>
-            <nav>
-                <ul class="menu">
-                    <li><a href="#">Menu</a></li>
-                    <li><a href="#">Lokationer</a></li>
-                    <li><a href="#">Om</a></li>
-                    <li> <a href="#">Bestilling</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
-    <div class="separator"></div>

@@ -1,13 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="robots" content="noindex">
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="layout.css">
+    <title>Forside</title>
 </head>
+
 <body>
+    <header>
+        <div class="om_grid">
+            <div>
+                <a id="bagerdygtigtheader" href="index.html">BAGERDYGTIGT</a>
+            </div>
+            <nav>
+                <ul class="menu">
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="lokationer.html">Lokationer</a></li>
+                    <li><a href="om.html">Om</a></li>
+                    <li><a href="bestilling.html">Bestilling</a></li>
+                </ul>
+                <div class="burger">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
     <div class="hero_video">
         <video autoplay muted src="https://segproject.dk/kea/05_grundl%C3%A6ggende_indhold/virksomhedsopgave/virksomhedssite_video_done.mp4"></video>
     </div>
@@ -50,5 +76,29 @@
         </div>
         </div>
     </div>
+    </main>
+    <script src="burger.js"></script>
+    <script src="login.js"></script>
+
+    <footer>
+        <div class="om_grid3">
+            <div class="footer3">
+                <img src="SVG/fb.svg" alt="fb">
+                <img src="SVG/ig.svg" alt="ig">
+
+            </div>
+            <div class="footer2">
+                <img src="SVG/logo.svg" alt="logo">
+                <li><a href="index.html">Bagerdygtigt</a></li>
+
+            </div>
+            <div class="footer1">
+                <li><a href="om.html">Om os</a></li>
+                <li><a href="om.html">Kontakt</a></li>
+                <li><a href="lokationer.html">Lokationer</a></li>
+            </div>
+        </div>
+    </footer>
 </body>
+
 </html>

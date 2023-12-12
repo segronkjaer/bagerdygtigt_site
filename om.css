@@ -105,7 +105,7 @@ main,
 footer,
 body {
   font-family: "brandon-grotesque", sans-serif;
-  background-color: antiquewhite;
+  /* background-color: antiquewhite;*/
 }
 
 @media (max-width: 800px) {
