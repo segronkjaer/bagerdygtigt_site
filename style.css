@@ -93,6 +93,7 @@ ul {
   margin-inline-start: 0px;
   margin-inline-end: 0px;
   padding-inline-start: 40px;
+  list-style: none;
 }
 
 .menu li {
@@ -201,8 +202,8 @@ ul {
     flex-direction: column;
     list-style: none;
     gap: 10px;
-    margin-top: 2rem;
     padding: 1rem;
+    margin-top: 0%;
   }
   .footer2 {
     list-style: none;
@@ -218,6 +219,7 @@ ul {
     display: flex;
     width: 5rem;
     padding: 1rem;
+    margin-right: 5%;
   }
 }
 /*Styling for footer mobil*/
