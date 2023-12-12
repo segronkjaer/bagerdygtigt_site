@@ -1,4 +1,4 @@
-/* * * Mobil site * * */
+/* * * * * * * MOBIL * * * * * * */
 
 /* Menu siden */
 @media (max-width: 800px) {
@@ -29,25 +29,43 @@
   /* Bestilling siden */
 }
 
-/*Styling af mobil side bestilling*/
+/* * * * * * * DESKTOP * * * * * * */
+@media (min-width: 800px) {
+  /* Menu siden */
 
-@media (max-width: 800px) {
-  main {
-    max-width: 400px;
-    margin-bottom: 2rem;
-    margin-inline: auto;
+  /* Lokationer */
+  .knap {
+    margin-top: 20px;
   }
+
+  .knap a {
+    text-decoration: underline;
+  }
+
+  main {
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+
   .bestilling_grid_1-1 {
     display: grid;
-    grid-template-rows: 1fr 1fr;
-    gap: 2rem;
-  }
-  .container_1 {
-    order: -1;
+    grid-template-columns: 2fr 2fr;
+    gap: 40px;
   }
 
-  .container_2 {
-    order: 1;
-    margin-inline: auto;
+  main {
+    max-width: 1100px;
+    margin: 0 auto;
+    margin-bottom: 100px;
   }
+
+  .bestilling_11 {
+    width: 90%;
+    height: 70%;
+    margin-bottom: 10px;
+  }
+
+  /* Om siden */
+
+  /* Bestilling siden */
 }
