@@ -21,7 +21,8 @@ body {
   margin-top: 1%;
   width: 115%;
 }
-/* Tekster for alle sider */
+
+/* Tekst for alle sider */
 h1 {
   font-family: "brandon-grotesque", sans-serif;
   font-size: 3.4rem;
@@ -136,7 +137,6 @@ ul {
 }
 
 /* Burgermenu - mobilsite */
-
 @media screen and (max-width: 800px) {
   .menu {
     display: none;
@@ -189,7 +189,8 @@ ul {
     margin-top: 1%;
   }
 }
-/*Styling for footer web*/
+
+/*Desktop - footer */
 @media (min-width: 800px) {
   .om_grid3 {
     display: flex;
@@ -225,7 +226,7 @@ ul {
   }
 }
 
-/*Styling for footer mobil*/
+/* Mobil - footer */
 @media (max-width: 800px) {
   .om_grid3 {
     display: flex;

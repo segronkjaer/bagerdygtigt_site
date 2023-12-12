@@ -6,6 +6,7 @@ h2 {
   margin-top: 20px;
 }
 
+/* Desktop */
 @media (min-width: 800px) {
   .knap {
     margin-top: 20px;
