@@ -35,21 +35,4 @@
     width: 82%;
     margin-bottom: 0;
   }
-
-  /* lokationer 
-  .lokationer_1 {
-    display: grid;
-    grid-template-columns: 1fr;
-    margin-left: 130px;
-  }
-
-  .lokationer_2 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-  }
-
-  .lokationer img {
-    width: 70%;
-    margin-left: 130px;
-  } */
 }
