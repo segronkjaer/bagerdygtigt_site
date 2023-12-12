@@ -32,8 +32,9 @@ img {
   margin-bottom: 10px;
 }
 
-/* bestilling */
-.container_1,
+/* mobil */
+
+/* .container_1,
 .container_2 {
   display: grid;
   grid-template-columns: 1fr;
@@ -46,4 +47,4 @@ img {
 .container_2 img {
   width: 82%;
   margin-bottom: 0;
-}
+} */
