@@ -16,16 +16,7 @@ p {
 }
 
 .knap a {
-  display: inline-block;
-  text-decoration: none;
-  color: white;
-  background-color: #6f6964;
-  padding: 10px;
-  border-radius: 10px;
-  font-family: "brandon-grotesque", sans-serif;
-  font-size: 1rem;
-  font-weight: 400;
-  font-style: normal;
+  text-decoration: underline;
 }
 
 /* layout */
