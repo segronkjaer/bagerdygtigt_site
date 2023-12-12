@@ -1,0 +1,2 @@
+/***** VIDEO *****/
+/* videoElement.play(); */
