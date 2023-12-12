@@ -152,7 +152,7 @@ ul {
     transition: 0.2s linear;
   }
 
-  .separator {
+  /*.separator {
     height: 2px;
     background-color: #000;
     margin: 10px 50px;
