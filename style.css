@@ -134,7 +134,7 @@ ul {
   display: none;
 }
 
-/* Desktop site footer */
+/* Burgermenu - mobilsite */
 
 @media screen and (max-width: 800px) {
   .menu {
@@ -172,6 +172,7 @@ ul {
     left: 0;
     width: 100%;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 0.5px solid black;
     z-index: 1;
   }
 
