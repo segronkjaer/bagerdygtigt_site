@@ -36,7 +36,7 @@
     margin-bottom: 0;
   }
 
-  /* lokationer */
+  /* lokationer 
   .lokationer_1 {
     display: grid;
     grid-template-columns: 1fr;
@@ -51,5 +51,5 @@
   .lokationer img {
     width: 70%;
     margin-left: 130px;
-  }
+  } */
 }
