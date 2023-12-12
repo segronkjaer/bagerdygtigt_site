@@ -113,6 +113,13 @@ body {
   /* background-color: antiquewhite;*/
 }
 
+p {
+  font-family: "brandon-grotesque", sans-serif;
+  font-size: 1.4rem;
+  font-weight: 300;
+  font-style: normal;
+}
+
 @media (max-width: 800px) {
   #om_img1 {
     width: 80%;
