@@ -1,5 +1,6 @@
 main {
-  margin: auto;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 @media (min-width: 800px) {
   /*.om_grid {

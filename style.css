@@ -22,8 +22,7 @@ h1 {
   font-size: 3.4rem;
   font-weight: 400;
   font-style: normal;
-  margin-top: 60px;
-  margin-left: 126px;
+  margin-top: 20px;
   margin-bottom: 20px;
 }
 
@@ -41,6 +40,7 @@ html {
   justify-content: space-between;
   align-items: center;
   padding: 20px;
+  margin-right: 2%;
 }
 
 #bagerdygtigtheader {
@@ -200,8 +200,8 @@ ul {
     flex-direction: column;
     list-style: none;
     gap: 10px;
-    margin-top: 2rem;
     padding: 1rem;
+    margin-bottom: 1rem;
   }
   .footer2 {
     list-style: none;
@@ -213,10 +213,10 @@ ul {
     display: none;
   }
   .footer3 {
-    margin-top: 5rem;
     display: flex;
     width: 5rem;
     padding: 1rem;
+    margin-bottom: 1rem;
   }
 }
 /*Styling for footer mobil*/
