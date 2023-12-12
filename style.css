@@ -40,18 +40,20 @@ html {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 40px;
+  padding: 20px;
 }
 
 #bagerdygtigtheader {
   font-size: 3rem;
   font-weight: bold;
+  margin-left: 6%;
 }
 
 .menu {
   list-style: none;
   display: flex;
   font-size: 30px;
+  margin-top: 5%;
 }
 
 .menu li {
@@ -62,7 +64,7 @@ a {
   text-decoration: none;
   font-weight: lighter;
   color: black;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   font-family: "brandon-grotesque", sans-serif;
 }
 
@@ -81,6 +83,7 @@ a {
   list-style: none;
   margin: 0;
   padding: 0;
+  margin-top: 5%;
 }
 
 ul {
@@ -152,18 +155,22 @@ ul {
     transition: 0.2s linear;
   }
 
-  /*.separator {
+  .separator {
+    border-bottom: 0.5px solid black;
+  }
+
+  /* .separator {
     height: 2px;
     background-color: #000;
     margin: 10px 50px;
     margin-top: -2%;
     margin-right: 4%;
     margin-left: 7%;
-  }
+  } */
 
   nav.active .menu {
     display: block;
-    background-color: #f4f9ff;
+    background-color: #eeece3;
     position: absolute;
     top: 60px;
     left: 0;
@@ -178,5 +185,67 @@ ul {
 
   nav.active .menu a {
     font-size: 24px;
+  }
+}
+/*Styling for footer web*/
+@media (min-width: 800px) {
+  .om_grid3 {
+    display: flex;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-between;
+    margin-top: 4rem;
+  }
+  .footer1 {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    gap: 10px;
+    margin-top: 2rem;
+    padding: 1rem;
+  }
+  .footer2 {
+    list-style: none;
+    margin-bottom: 1rem;
+    width: 15rem;
+    align-items: center;
+  }
+  #logo_txt {
+    display: none;
+  }
+  .footer3 {
+    margin-top: 5rem;
+    display: flex;
+    width: 5rem;
+    padding: 1rem;
+  }
+}
+/*Styling for footer mobil*/
+@media (max-width: 800px) {
+  .om_grid3 {
+    display: flex;
+    justify-content: space-between;
+  }
+  #logo_txt {
+    display: none;
+  }
+
+  .footer3 {
+    display: flex;
+    gap: 5px;
+    width: 100px;
+  }
+
+  .footer2 {
+    display: flex;
+    align-items: center;
+    width: 100px;
+  }
+
+  .footer1 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100px;
+    list-style: none;
   }
 }
