@@ -152,18 +152,22 @@ ul {
     transition: 0.2s linear;
   }
 
-  /*.separator {
+  .separator {
+    border-bottom: 0.5px solid black;
+  }
+
+  /* .separator {
     height: 2px;
     background-color: #000;
     margin: 10px 50px;
     margin-top: -2%;
     margin-right: 4%;
     margin-left: 7%;
-  }
+  } */
 
   nav.active .menu {
     display: block;
-    background-color: #f4f9ff;
+    background-color: #eeece3;
     position: absolute;
     top: 60px;
     left: 0;
