@@ -1,21 +1,12 @@
 main {
   max-width: 1100px;
   margin: 0 auto;
+  margin-bottom: 100px;
 }
-@media (min-width: 800px) {
-  /*.om_grid {
-    display: flex;
-    justify-content: space-between;
-    margin-inline: auto;
-    padding: 40px;
-  }*/
 
-  .nav-menu {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
+/* Tekster */
 
+<<<<<<< HEAD
   /*#bagerdygtigtheader {
     font-size: 3rem;
     font-weight: bold;
@@ -80,8 +71,6 @@ main {
     flex-direction: column;
     list-style: none;
     gap: 10px;
-    margin-top: 2rem;
-    padding: 1rem;
   }
   .footer2 {
     list-style: none;
@@ -95,9 +84,13 @@ main {
   .footer3 {
     display: flex;
     width: 5rem;
+<<<<<<< HEAD
+  }
+=======
     padding: 1rem;
     margin-top: 7%;
   } */
+>>>>>>> 1cdf1c09ef572595f5a1ef2a4cb04ddc355ed0a2
 }
 
 /* Generel styling */
@@ -105,17 +98,22 @@ header,
 main,
 footer,
 body {
+=======
+h2 {
+>>>>>>> eb44d83602bc6b3feeb78df1b79cb0f86a3b51ba
   font-family: "brandon-grotesque", sans-serif;
-  /* background-color: antiquewhite;*/
+  font-size: 1.8rem;
+  font-weight: 400;
+  font-style: normal;
+  margin-bottom: 5px;
 }
 
 p {
-  font-family: "brandon-grotesque", sans-serif;
-  font-size: 1.4rem;
-  font-weight: 300;
-  font-style: normal;
+  margin-bottom: 20px;
+  text-align: justify;
 }
 
+<<<<<<< HEAD
 @media (max-width: 800px) {
   #om_img1 {
     width: 80%;
@@ -130,13 +128,6 @@ p {
     top: 0;
     left: -110px;
   }
-  /*#bagerdygtigtheader {
-    width: 10px;
-    font-weight: bold;
-    position: relative;
-    top: 0;
-    left: -35px;
-  }*/
   .om_h1 {
     position: relative;
     top: 0;
@@ -162,20 +153,15 @@ p {
     align-content: baseline;
     padding: 50px;
   }
-  /*.separator {
-    height: 2px;
-    background-color: #000;
-    margin: 10px 50px;
-    margin-top: -2%;
-    margin-right: 4%;
-    margin-left: 7%;
-  }*/
+=======
+img {
+  width: 70%;
+  height: 60%;
+}
+>>>>>>> eb44d83602bc6b3feeb78df1b79cb0f86a3b51ba
 
-  .om_grid3 {
-    display: flex;
-    justify-content: space-between;
-  }
-  #logo_txt {
-    display: none;
-  }
+.om_grid_1-1 {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  gap: 50px;
 }

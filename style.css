@@ -185,7 +185,11 @@ ul {
     display: flex;
     grid-template-columns: 1fr 1fr 1fr;
     justify-content: space-between;
+<<<<<<< HEAD
+    margin-top: 2rem;
+=======
     margin-top: -0.2rem;
+>>>>>>> 1cdf1c09ef572595f5a1ef2a4cb04ddc355ed0a2
   }
 
   .footer1 {
@@ -240,6 +244,12 @@ ul {
     width: 100px;
     list-style: none;
   } */
+
+  #bagerdygtigtheader {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-left: 28%;
+  }
 
   .footer1 {
     display: flex;
