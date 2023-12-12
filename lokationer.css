@@ -15,19 +15,15 @@ main {
   margin-bottom: 100px;
 }
 
-<<<<<<< HEAD
-=======
 .grid_1-1-1 {
   display: grid;
   grid-template-columns: 15fr 10fr 10fr;
 }
 
->>>>>>> 1cdf1c09ef572595f5a1ef2a4cb04ddc355ed0a2
 .lokationer_billede {
   width: 90%;
   height: auto;
 }
-<<<<<<< HEAD
 
 .lokationer_billede {
   grid-column: 1/3;
