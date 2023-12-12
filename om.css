@@ -24,3 +24,7 @@ p {
   grid-template-columns: 1fr 1.5fr;
   gap: 40px;
 }
+
+.om_info {
+  margin-bottom: 10px;
+}
