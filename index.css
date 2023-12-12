@@ -179,6 +179,22 @@ ul {
     margin-left: 21%;
   }
 
+  .knap11 {
+    text-decoration: underline;
+  }
+
+  .knap2 {
+    text-decoration: underline;
+  }
+
+  .knap3 {
+    text-decoration: underline;
+  }
+
+  .knap4 {
+    text-decoration: underline;
+  }
+
   .broed {
     width: 80%;
   }
@@ -228,7 +244,7 @@ ul {
 
   nav.active .menu {
     display: block;
-    background-color:#eeece3;
+    background-color: #eeece3;
     position: absolute;
     top: 60px;
     left: 0;
