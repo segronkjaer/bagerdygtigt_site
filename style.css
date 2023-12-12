@@ -193,7 +193,7 @@ ul {
     display: flex;
     grid-template-columns: 1fr 1fr 1fr;
     justify-content: space-between;
-    margin-top: 4rem;
+    margin-top: 2rem;
   }
   .footer1 {
     display: flex;

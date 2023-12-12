@@ -80,8 +80,6 @@ main {
     flex-direction: column;
     list-style: none;
     gap: 10px;
-    margin-top: 2rem;
-    padding: 1rem;
   }
   .footer2 {
     list-style: none;
@@ -93,10 +91,8 @@ main {
     display: none;
   }
   .footer3 {
-    margin-top: 5rem;
     display: flex;
     width: 5rem;
-    padding: 1rem;
   }
 }
 
@@ -130,13 +126,6 @@ p {
     top: 0;
     left: -110px;
   }
-  /*#bagerdygtigtheader {
-    width: 10px;
-    font-weight: bold;
-    position: relative;
-    top: 0;
-    left: -35px;
-  }*/
   .om_h1 {
     position: relative;
     top: 0;
@@ -162,14 +151,6 @@ p {
     align-content: baseline;
     padding: 50px;
   }
-  /*.separator {
-    height: 2px;
-    background-color: #000;
-    margin: 10px 50px;
-    margin-top: -2%;
-    margin-right: 4%;
-    margin-left: 7%;
-  }*/
 
   .om_grid3 {
     display: flex;
