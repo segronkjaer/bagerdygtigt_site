@@ -1,34 +1,35 @@
-/* skift style */
-
+/* tekster */
 h2 {
   font-family: "brandon-grotesque", sans-serif;
-  font-size: 2rem;
+  font-size: 1.8rem;
   font-weight: 400;
   font-style: normal;
-  margin-top: 20px;
+  margin-bottom: 5px;
 }
 
 h3 {
   font-family: "brandon-grotesque", sans-serif;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   font-weight: 400;
   font-style: normal;
-  margin-top: 27px;
+  margin-bottom: 5px;
 }
 
 p {
-  font-family: "brandon-grotesque", sans-serif;
-  font-size: 1.2rem;
-  font-weight: 300;
-  font-style: normal;
   margin-right: 170px;
-  margin-top: 5px;
   margin-bottom: 10px;
 }
 
-.morgenmad {
-  margin-top: 144px;
-  margin-left: 27px;
+/* main */
+main {
+  max-width: 1100px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+img {
+  width: 80%;
+  height: auto;
 }
 
 .punktform {
@@ -39,20 +40,11 @@ p {
   font-size: 1rem;
   font-weight: 300;
   font-style: normal;
-  margin-right: 170px;
+  /* margin-right: 170px; */
   margin-top: 10px;
   margin-bottom: 10px;
   margin-left: 15px;
 }
-
-/* style */
-img {
-  width: 77%;
-  height: 82%;
-  margin-left: 126px;
-  margin-top: 2%;
-}
-
 .punktform li::before {
   content: "\2022"; /* Bruger unicode-tegnet for en prik • */
   color: black; /* Farve på prikken */
@@ -66,9 +58,4 @@ img {
 .grid_1-1 {
   display: grid;
   grid-template-columns: 1fr 1fr;
-}
-
-.morgenmad {
-  grid-column: 2 / span 1;
-  grid-row: 1 / span 2;
 }
