@@ -1,4 +1,6 @@
 /* * * Mobil site * * */
+
+/* Menu siden */
 @media (max-width: 800px) {
   .grid_1-1 {
     display: grid;
@@ -19,6 +21,12 @@
   .morgenmad {
     margin-top: 9%;
   }
+
+  /* Lokationer siden */
+
+  /* Om siden */
+
+  /* Bestilling siden */
 }
 
 /*Styling af mobil side bestilling*/
