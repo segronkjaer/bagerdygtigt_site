@@ -27,6 +27,24 @@
   /* Om siden */
 
   /* Bestilling siden */
+
+  /* Forside  */
+
+  .knap11 {
+    text-decoration: underline;
+  }
+
+  .knap2 {
+    text-decoration: underline;
+  }
+
+  .knap4 {
+    text-decoration: underline;
+  }
+
+  .knap3 {
+    text-decoration: underline;
+  }
 }
 
 /*Styling af mobil side bestilling*/
