@@ -16,15 +16,21 @@ body {
   background-color: #eeece3;
 }
 
-/* H1 overskrift for alle sider */
+/* Tekster for alle sider */
 h1 {
   font-family: "brandon-grotesque", sans-serif;
   font-size: 3.4rem;
   font-weight: 400;
   font-style: normal;
-  margin-top: 60px;
-  margin-left: 126px;
+  margin-top: 40px;
   margin-bottom: 20px;
+}
+
+p {
+  font-family: "brandon-grotesque", sans-serif;
+  font-size: 1rem;
+  font-weight: 300;
+  font-style: normal;
 }
 
 html {
@@ -68,15 +74,6 @@ a {
   font-size: 1.2rem;
   font-family: "brandon-grotesque", sans-serif;
 }
-
-/* .separator {
-  height: 2px;
-  background-color: #000;
-  margin: 10px 50px;
-  margin-top: -2%;
-  margin-right: 4%;
-  margin-left: 7%;
-} */
 
 /* Burgermenu */
 .menu {
@@ -133,6 +130,8 @@ ul {
   display: none;
 }
 
+/* Desktop site footer */
+
 @media screen and (max-width: 800px) {
   .menu {
     display: none;
@@ -161,15 +160,6 @@ ul {
     border-bottom: 0.5px solid black;
   }
 
-  /* .separator {
-    height: 2px;
-    background-color: #000;
-    margin: 10px 50px;
-    margin-top: -2%;
-    margin-right: 4%;
-    margin-left: 7%;
-  } */
-
   nav.active .menu {
     display: block;
     background-color: #eeece3;
@@ -195,60 +185,83 @@ ul {
     display: flex;
     grid-template-columns: 1fr 1fr 1fr;
     justify-content: space-between;
-    margin-top: 4rem;
+    margin-top: -0.2rem;
   }
+
   .footer1 {
     display: flex;
     flex-direction: column;
     list-style: none;
     gap: 10px;
     padding: 1rem;
-    margin-top: 0%;
+    margin-top: 2%;
   }
   .footer2 {
     list-style: none;
     margin-bottom: 1rem;
     width: 15rem;
     align-items: center;
+    margin-top: 2%;
+    margin-left: 2%;
   }
-  #logo_txt {
-    display: none;
-  }
+
   .footer3 {
-    margin-top: 5rem;
     display: flex;
     width: 5rem;
     padding: 1rem;
+    margin-top: 7%;
     margin-right: 5%;
   }
 }
+
 /*Styling for footer mobil*/
 @media (max-width: 800px) {
   .om_grid3 {
     display: flex;
     justify-content: space-between;
   }
-  #logo_txt {
-    display: none;
-  }
 
-  .footer3 {
-    display: flex;
+  /* .footer3 {
+   
     gap: 5px;
     width: 100px;
-  }
+  } */
 
-  .footer2 {
+  /* .footer2 {
     display: flex;
     align-items: center;
     width: 100px;
-  }
+  } */
 
-  .footer1 {
+  /* .footer1 {
     display: flex;
     flex-direction: column;
     gap: 10px;
     width: 100px;
     list-style: none;
+  } */
+
+  .footer1 {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    gap: 10px;
+    padding: 1rem;
+    margin-top: 2%;
+    margin-left: -6%;
+  }
+  .footer2 {
+    list-style: none;
+    margin-bottom: 1rem;
+    width: 8rem;
+    align-items: center;
+    margin-top: 13%;
+  }
+
+  .footer3 {
+    display: flex;
+    width: 5rem;
+    padding: 1rem;
+    margin-top: 18%;
   }
 }
