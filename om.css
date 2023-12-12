@@ -51,6 +51,7 @@ main {
     max-width: 1200px;
     margin: auto;
     gap: 1rem;
+    margin-bottom: 4rem;
   }
 
   .om_h1 {
@@ -94,7 +95,7 @@ main {
     align-items: center;
   }
   #logo_txt {
-    right: 20px;
+    display: none;
   }
   .footer3 {
     margin-top: 5rem;
@@ -111,6 +112,13 @@ footer,
 body {
   font-family: "brandon-grotesque", sans-serif;
   /* background-color: antiquewhite;*/
+}
+
+p {
+  font-family: "brandon-grotesque", sans-serif;
+  font-size: 1.4rem;
+  font-weight: 300;
+  font-style: normal;
 }
 
 @media (max-width: 800px) {
