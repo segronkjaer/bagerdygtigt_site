@@ -5,19 +5,35 @@ main {
   .om_grid {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    margin-inline: auto;
     padding: 40px;
+  }
+  .nav-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .bar {
+    width: 30px;
+    height: 3px;
+    background-color: #000;
+    margin: 6px 0;
   }
 
   #bagerdygtigtheader {
     font-size: 3rem;
     font-weight: bold;
+    position: relative;
+    top: 0;
+    left: 70px;
   }
 
   .menu {
     list-style: none;
     display: flex;
-    font-size: 30px;
+    font-size: 20px;
+    gap: 40px;
   }
 
   .menu li {
@@ -28,61 +44,63 @@ main {
     text-decoration: none;
     font-weight: 700;
     color: black;
-    font-weight: 1;
-  }
-
-  a:hover {
-    color: white;
-  }
-  .separator {
-    height: 2px;
-    background-color: #000;
-    margin: 10px 50px;
   }
   .om_grid2 {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    max-width: 1400px;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 1200px;
     margin: auto;
     gap: 1rem;
+  }
+
+  .om_h1 {
+    position: relative;
+    top: 0;
   }
 
   #om_img1 {
     width: 80%;
     height: auto;
     margin-inline: auto;
-  }
-  .img {
-    align-self: end;
+    margin-top: 17.5rem;
   }
 
   #om_img2 {
     width: 100%;
-    width: 100%;
   }
   #om_txt {
-    /* width: 60%; */
     height: auto;
-    padding: 1.5rem;
     font-size: large;
+    order: -1;
   }
   .om_grid3 {
     display: flex;
     grid-template-columns: 1fr 1fr 1fr;
     justify-content: space-between;
+    margin-top: 4rem;
   }
   .footer1 {
     display: flex;
+    flex-direction: column;
     list-style: none;
     gap: 10px;
     margin-top: 2rem;
+    padding: 1rem;
   }
   .footer2 {
     list-style: none;
     margin-bottom: 1rem;
+    width: 15rem;
+    align-items: center;
+  }
+  #logo_txt {
+    right: 20px;
   }
   .footer3 {
-    margin-top: 1rem;
+    margin-top: 5rem;
+    display: flex;
+    width: 5rem;
+    padding: 1rem;
   }
 }
 
@@ -96,4 +114,85 @@ body {
 }
 
 @media (max-width: 800px) {
+  #om_img1 {
+    width: 80%;
+    height: auto;
+    margin-inline: auto;
+  }
+  #om_img2 {
+    width: 100%;
+  }
+  #logo_txt {
+    position: relative;
+    top: 0;
+    left: -110px;
+  }
+  #bagerdygtigtheader {
+    width: 10px;
+    font-weight: bold;
+    position: relative;
+    top: 0;
+    left: -35px;
+  }
+  .om_h1 {
+    position: relative;
+    top: 0;
+    left: -120px;
+  }
+
+  .om_grid2 {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  #om_img1 {
+    order: -1;
+    width: 80%;
+  }
+  #om_txt {
+    order: 1;
+    width: 80%;
+    margin-inline: auto;
+    padding: 50px;
+  }
+  #om_img2 {
+    width: 120%;
+    align-content: baseline;
+    padding: 50px;
+  }
+  .separator {
+    height: 2px;
+    background-color: #000;
+    margin: 10px 50px;
+    margin-top: -2%;
+    margin-right: 4%;
+    margin-left: 7%;
+  }
+
+  .om_grid3 {
+    display: flex;
+    justify-content: space-between;
+  }
+  #logo_txt {
+    display: none;
+  }
+
+  .footer3 {
+    display: flex;
+    gap: 5px;
+    width: 100px;
+  }
+
+  .footer2 {
+    display: flex;
+    align-items: center;
+    width: 100px;
+  }
+
+  .footer1 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100px;
+    list-style: none;
+  }
 }
