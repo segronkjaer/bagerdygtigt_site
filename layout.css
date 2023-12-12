@@ -20,3 +20,26 @@
     margin-top: 9%;
   }
 }
+
+/*Styling af mobil side bestilling*/
+
+@media (max-width: 800px) {
+  main {
+    max-width: 400px;
+    margin-bottom: 2rem;
+    margin-inline: auto;
+  }
+  .bestilling_grid_1-1 {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    gap: 2rem;
+  }
+  .container_1 {
+    order: -1;
+  }
+
+  .container_2 {
+    order: 1;
+    margin-inline: auto;
+  }
+}
