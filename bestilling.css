@@ -31,3 +31,19 @@ img {
   height: 70%;
   margin-bottom: 10px;
 }
+
+/* bestilling */
+.container_1,
+.container_2 {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  margin-left: 130px;
+  margin-bottom: 50px;
+}
+
+.container_1 img,
+.container_2 img {
+  width: 82%;
+  margin-bottom: 0;
+}
