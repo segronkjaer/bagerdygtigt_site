@@ -1,5 +1,5 @@
 /* tekster */
-h2 {
+/* h2 {
   font-family: "brandon-grotesque", sans-serif;
   font-size: 1.8rem;
   font-weight: 400;
@@ -18,10 +18,10 @@ h3 {
 p {
   margin-right: 170px;
   margin-bottom: 10px;
-}
+} */
 
 /* main */
-main {
+/* main {
   max-width: 1100px;
   margin: 0 auto;
   margin-bottom: 100px;
@@ -29,7 +29,7 @@ main {
 
 .billede_menu {
   width: 90%;
-  height: 90%;
+  height: auto;
 }
 
 .punktform {
@@ -51,11 +51,11 @@ main {
   display: inline-block;
   width: 1em; /* Bredden af prikken */
   margin-left: -1em; /* Negativ margin for at centrere prikken */
-}
+} */
 
 /* layout */
 
-.grid_1-1 {
+/* .grid_1-1 {
   display: grid;
   grid-template-columns: 1fr 1fr;
-}
+} */

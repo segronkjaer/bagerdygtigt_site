@@ -1,37 +1,6 @@
-h2 {
-  font-family: "brandon-grotesque", sans-serif;
-  font-size: 1.8rem;
-  font-weight: 400;
-  font-style: normal;
-}
-
-p {
-  margin-bottom: 20px;
-}
-
-/* Mobil */
-@media (max-width: 800px) {
-  .grid_1-1-1 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 60px;
-  }
-  .lokationer_billede {
-    grid-column: 1/3;
-    margin-inline: auto;
-    padding: 1rem;
-  }
-  .lokationer_1 {
-    margin-inline: auto;
-  }
-  .lokationer_2 {
-    margin-inline: auto;
-  }
-}
-
-/* Desktop */
+/* Desktop 
 @media (min-width: 800px) {
-  .grid_1-1-1 {
+  .lokationer_grid_1-1-1{
     display: grid;
     grid-template-columns: 1.5fr 1fr 1fr;
     gap: 60px;
@@ -42,4 +11,8 @@ p {
     margin: 0 auto;
     margin-bottom: 100px;
   }
-}
+
+  p {
+    margin-bottom: 20px;
+  }
+}*/

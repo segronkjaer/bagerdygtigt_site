@@ -1,5 +1,5 @@
 /****** FORSIDE ******/
-* {
+/* * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -22,10 +22,10 @@ video {
   width: 100%;
   display: block;
   object-fit: cover;
-}
+} 
 
-/* desktop site */
-@media (min-width: 800px) {
+desktop site 
+/* @media (min-width: 800px) {
   .grid_1-1_forside {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -59,6 +59,25 @@ video {
     margin-bottom: 22%;
   }
 
+  p {
+    margin-right: 170px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+  }
+
+  img {
+    width: 75%;
+    height: 75%;
+    display: block;
+    object-fit: cover;
+  }
+
+  video {
+    width: 100%;
+    display: block;
+    object-fit: cover;
+  }
+
   .knap4 {
     grid-column: 1 / span 2;
     grid-row: 4 / span 1;
@@ -79,14 +98,8 @@ video {
     text-align: justify;
   }
 
-  .knap11 {
-    text-decoration: underline;
-  }
-
-  .knap2 {
-    text-decoration: underline;
-  }
-
+  .knap11,
+  .knap2,
   .knap3 {
     text-decoration: underline;
   }
@@ -102,4 +115,4 @@ video {
   .juice {
     width: 92%;
   }
-}
+} */
