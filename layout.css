@@ -35,6 +35,27 @@
     height: auto;
   }
 
+  .punktform {
+    list-style-type: none; /* Fjerner standardpunktet */
+    padding: 0; /* Fjerner indrykning for ul-elementet */
+    display: inline-block;
+    font-family: "brandon-grotesque", sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+    font-style: normal;
+    /* margin-right: 170px; */
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 15px;
+  }
+  .punktform li::before {
+    content: "\2022"; /* Bruger unicode-tegnet for en prik • */
+    color: black; /* Farve på prikken */
+    display: inline-block;
+    width: 1em; /* Bredden af prikken */
+    margin-left: -1em; /* Negativ margin for at centrere prikken */
+  }
+
   /* Lokationer siden */
   .grid_1-1-1 {
     display: grid;
@@ -215,26 +236,23 @@
   }
 
   /* Om siden */
-  @media (min-width: 800px) {
-    .om_grid_1-1 {
-      display: grid;
-      grid-template-columns: 1fr 1.5fr;
-      gap: 40px;
-    }
+  .om_grid_1-1 {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    gap: 40px;
+  }
 
-    .om_info {
-      margin-bottom: 10px;
-    }
-    p {
-      margin-bottom: 20px;
-    }
-    h2 {
-      margin-bottom: 5px;
-    }
+  .om_info {
+    margin-bottom: 10px;
+  }
+  p {
+    margin-bottom: 20px;
+  }
+  h2 {
+    margin-bottom: 5px;
   }
 
   /* Bestilling siden */
-
   .knap {
     margin-top: 20px;
   }
@@ -257,5 +275,133 @@
     width: 90%;
     height: 70%;
     margin-bottom: 10px;
+  }
+}
+
+/* Burgermenu - mobilsite */
+@media screen and (max-width: 800px) {
+  .menu {
+    display: none;
+  }
+
+  .burger {
+    display: block;
+  }
+
+  .burger.active .line:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 5px);
+    transition: 0.2s linear;
+  }
+
+  .burger.active .line:nth-child(2) {
+    opacity: 0;
+    transition: 0.15s linear;
+  }
+
+  .burger.active .line:nth-child(3) {
+    transform: rotate(-45deg) translate(5px, -5px);
+    transition: 0.2s linear;
+  }
+
+  .separator {
+    border-bottom: 0.5px solid black;
+  }
+
+  nav.active .menu {
+    display: block;
+    background-color: #eeece3;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 0.5px solid black;
+    z-index: 1;
+  }
+
+  nav.active .menu li {
+    margin: 10px 20px;
+  }
+
+  nav.active .menu a {
+    font-size: 24px;
+  }
+
+  .ig {
+    margin-top: 1%;
+  }
+}
+
+/*Desktop - footer */
+@media (min-width: 800px) {
+  .om_grid3 {
+    display: flex;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-between;
+    margin-top: 2rem;
+    margin-top: -0.2rem;
+  }
+
+  .footer1 {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    gap: 10px;
+    padding: 1rem;
+    margin-top: 2%;
+  }
+  .footer2 {
+    list-style: none;
+    margin-bottom: 1rem;
+    width: 15rem;
+    align-items: center;
+    margin-top: 2%;
+    margin-left: 2%;
+  }
+
+  .footer3 {
+    display: flex;
+    width: 7%;
+    padding: 1rem;
+    margin-top: 7%;
+    margin-right: 5%;
+  }
+}
+
+/* Mobil - footer */
+@media (max-width: 800px) {
+  .om_grid3 {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  #bagerdygtigtheader {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-left: 28%;
+  }
+
+  .footer1 {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    gap: 10px;
+    padding: 1rem;
+    margin-top: 2%;
+    margin-left: -6%;
+  }
+  .footer2 {
+    list-style: none;
+    margin-bottom: 1rem;
+    width: 8rem;
+    align-items: center;
+    margin-top: 13%;
+  }
+
+  .footer3 {
+    display: flex;
+    width: 5rem;
+    padding: 1rem;
+    margin-top: 18%;
   }
 }
