@@ -1,12 +1,12 @@
-@media (min-width: 800px) {
-  h2 {
-    font-family: "brandon-grotesque", sans-serif;
-    font-size: 1.8rem;
-    font-weight: 400;
-    font-style: normal;
-    margin-top: 20px;
-  }
+h2 {
+  font-family: "brandon-grotesque", sans-serif;
+  font-size: 1.8rem;
+  font-weight: 400;
+  font-style: normal;
+  margin-top: 20px;
+}
 
+@media (min-width: 800px) {
   .knap {
     margin-top: 20px;
   }
@@ -32,38 +32,9 @@
     margin-bottom: 100px;
   }
 
-  img {
+  .bestilling_11 {
     width: 90%;
     height: 70%;
     margin-bottom: 10px;
   }
 }
-
-@media (max-width: 800px) {
-  main {
-    max-width: 400px;
-  }
-  .bestilling_grid_1-1 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-  }
-  .container_1 {
-  }
-}
-
-/* mobil */
-
-/* .container_1,
-.container_2 {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 1fr;
-  margin-left: 130px;
-  margin-bottom: 50px;
-}
-
-.container_1 img,
-.container_2 img {
-  width: 82%;
-  margin-bottom: 0;
-} */
