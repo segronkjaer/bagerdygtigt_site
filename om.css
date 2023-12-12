@@ -1,21 +1,12 @@
 main {
   max-width: 1100px;
   margin: 0 auto;
+  margin-bottom: 100px;
 }
-@media (min-width: 800px) {
-  /*.om_grid {
-    display: flex;
-    justify-content: space-between;
-    margin-inline: auto;
-    padding: 40px;
-  }*/
 
-  .nav-menu {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
+/* Tekster */
 
+<<<<<<< HEAD
   /*#bagerdygtigtheader {
     font-size: 3rem;
     font-weight: bold;
@@ -107,17 +98,22 @@ header,
 main,
 footer,
 body {
+=======
+h2 {
+>>>>>>> eb44d83602bc6b3feeb78df1b79cb0f86a3b51ba
   font-family: "brandon-grotesque", sans-serif;
-  /* background-color: antiquewhite;*/
+  font-size: 1.8rem;
+  font-weight: 400;
+  font-style: normal;
+  margin-bottom: 5px;
 }
 
 p {
-  font-family: "brandon-grotesque", sans-serif;
-  font-size: 1.4rem;
-  font-weight: 300;
-  font-style: normal;
+  margin-bottom: 20px;
+  text-align: justify;
 }
 
+<<<<<<< HEAD
 @media (max-width: 800px) {
   #om_img1 {
     width: 80%;
@@ -157,12 +153,15 @@ p {
     align-content: baseline;
     padding: 50px;
   }
+=======
+img {
+  width: 70%;
+  height: 60%;
+}
+>>>>>>> eb44d83602bc6b3feeb78df1b79cb0f86a3b51ba
 
-  .om_grid3 {
-    display: flex;
-    justify-content: space-between;
-  }
-  #logo_txt {
-    display: none;
-  }
+.om_grid_1-1 {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  gap: 50px;
 }
