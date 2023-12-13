@@ -1,3 +1,39 @@
+/* Mobil */
+@media (max-width: 800px) {
+  main {
+    padding: 15px;
+  }
+  .om_grid_1-1 {
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: justify;
+    gap: 10px;
+  }
+
+  .om_billede {
+    grid-column: 1/3;
+  }
+}
+
+/* Desktop */
+@media (min-width: 800px) {
+  .om_grid_1-1 {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    gap: 40px;
+  }
+
+  .om_info {
+    margin-bottom: 10px;
+  }
+  p {
+    margin-bottom: 20px;
+  }
+  h2 {
+    margin-bottom: 5px;
+  }
+}
+
 /* h2 {
   font-family: "brandon-grotesque", sans-serif;
   font-size: 1.8rem;

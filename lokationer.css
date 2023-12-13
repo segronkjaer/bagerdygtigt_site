@@ -1,6 +1,39 @@
-/* Desktop 
+/* Mobil */
+@media (max-width: 800px) {
+  main {
+    padding: 15px;
+  }
+  .grid_1-1-1 {
+    display: grid;
+    gap: 10px;
+  }
+
+  .lokationer_billede {
+    display: grid;
+    grid-column: 1/3;
+  }
+}
+/* Desktop */
 @media (min-width: 800px) {
-  .lokationer_grid_1-1-1{
+  .main_container {
+    max-width: 1100px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+  }
+  .lokationer_grid_1-1-1 {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr 1fr;
+    gap: 60px;
+  }
+
+  p {
+    margin-bottom: 20px;
+  }
+}
+
+/* Desktop */
+@media (min-width: 800px) {
+  .lokationer_grid_1-1-1 {
     display: grid;
     grid-template-columns: 1.5fr 1fr 1fr;
     gap: 60px;
@@ -15,4 +48,4 @@
   p {
     margin-bottom: 20px;
   }
-}*/
+}

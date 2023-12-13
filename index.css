@@ -1,4 +1,117 @@
 /****** FORSIDE ******/
+
+/* Mobil */
+@media (max-width: 800px) {
+  main {
+    padding: 15px;
+  }
+
+  .grid4_forside {
+    display: grid;
+    text-align: justify;
+    min-width: 550px;
+  }
+  .knap11,
+  .knap2,
+  .knap4,
+  .knap3 {
+    text-decoration: underline;
+  }
+}
+
+/* Desktop */
+@media (min-width: 800px) {
+  .grid_1-1_forside {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
+
+  .grid1_forside {
+    grid-column: 1 / span 1;
+    grid-row: 1 / span 1;
+    margin-top: 13%;
+    margin-left: 14%;
+  }
+
+  .knap1 {
+    margin-top: 3%;
+    margin-left: 14%;
+  }
+
+  .grid2_forside {
+    grid-column: 2 / span 1;
+    grid-row: 2 / span 1;
+    margin-top: -17%;
+    margin-left: 9%;
+  }
+
+  .grid3_forside {
+    grid-column: 1 / span 1;
+    grid-row: 3 / span 1;
+    margin-left: 15%;
+    margin-top: -35%;
+    margin-bottom: 22%;
+  }
+
+  p {
+    margin-right: 170px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+  }
+
+  img {
+    width: 75%;
+    height: 75%;
+    display: block;
+    object-fit: cover;
+  }
+
+  video {
+    width: 100%;
+    display: block;
+    object-fit: cover;
+  }
+
+  .knap4 {
+    grid-column: 1 / span 2;
+    grid-row: 4 / span 1;
+    text-decoration: underline;
+    margin-left: 31%;
+    margin-top: 7%;
+    margin-bottom: 9%;
+  }
+
+  .grid4_forside {
+    grid-column: 2 / span 1;
+    grid-row: 1 / span 1;
+    margin-top: 11%;
+    margin-left: 21%;
+  }
+
+  .ppp {
+    text-align: justify;
+  }
+
+  .knap11,
+  .knap2,
+  .knap3 {
+    text-decoration: underline;
+  }
+
+  .broed {
+    width: 80%;
+  }
+
+  .bagerlogo {
+    width: 94%;
+  }
+
+  .juice {
+    width: 92%;
+  }
+}
+
 /* * {
   box-sizing: border-box;
   margin: 0;
